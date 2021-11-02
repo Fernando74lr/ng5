@@ -205,7 +205,7 @@ class HomeComponent {
         });
     }
     addItem() {
-        var mytoken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InRlc3QxIiwiZXhwIjoxNjM1ODMzMDAyLCJvcmlnSWF0IjoxNjM1ODMyNzAyfQ.6_edbnQl08h0yfhfVJRlJN7bnJ0tlp0Jgu3Kq199Eh8";
+        var mytoken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImFkc29mdCIsImV4cCI6MTYzNDc5NTgwMiwib3JpZ0lhdCI6MTYzNDc5NTUwMn0._6tOsFeS7Li59toIpxyD1rDNi_HXnjvcDPBjoKXNcUk";
         //this.storageService.getSession("token");
         alert(this.goalText);
         this.graphqlProductsService.createLink(mytoken, "https://www.github.com", this.goalText)
